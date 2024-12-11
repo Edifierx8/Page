@@ -1,0 +1,129 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+body {
+    font-family: 'Young Serif',serif;
+    /* max-width: 375px; */
+    width: 100%;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    /* width: 80%; */
+    /* border: 2px solid salmon; */
+    /* max-width: 374px; */
+    max-width: 375px;
+    padding: 0 2em;
+    margin-bottom: 2em;
+}
+img {
+    width: 100%;
+    max-width: 375px;
+}
+.heading h1 {
+    color: hsl(24, 5%, 18%);
+}
+
+.heading p {
+    text-align: left;
+    font-size: 1em;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 2em;
+}
+
+.time {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(330, 100%, 98%);
+    padding: 1em;
+    line-height: 2em;
+    border-radius: 10px;
+}
+
+.time h3 {
+    color: hsl(332, 51%, 32%);
+    padding-left: 1em;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.time ul li {
+    color: hsl(24, 5%, 18%);
+    font-weight: 600;
+    padding-left: 2em;
+}
+span {
+    color: hsl(30, 10%, 34%);
+}
+
+.ingredients h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul li {
+    color: hsl(30, 10%, 34%);
+    line-height: 2em;
+    padding-left: 2em;
+}
+
+.instructions {
+    border-top: 1px solid hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+    padding: 1em 0;
+}
+
+.instructions h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions ol li{
+    font-family: 'Outfit',sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    line-height: 2em;
+    padding-left: 2em;
+}
+
+.title {
+    color: hsl(24, 5%, 18%);
+}
+
+.nutrition h2{
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition p {
+    color: hsl(24, 5%, 18%);
+}
+
+.flex {
+    display: flex;
+}
+
+.gap {
+    gap: 11rem;
+}
+
+ @media (min-width: 769px) {
+        body {
+            max-width: 1440px;
+            width: 100%;
+            background-color: hsl(332, 30%, 82%);
+        }
+
+        .container {
+            max-width: 775px;
+            margin: 100px auto;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .img {
+            text-align: center;
+            width: 100%;
+            /* max-width: 775px; */
+        }
+
+    }
